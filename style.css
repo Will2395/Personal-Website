@@ -57,3 +57,84 @@ main {
     padding-top: 5em;
     padding-left: 2em;
 }
+
+#home-pic {
+    max-height: 300px;
+}
+
+.about-div {
+    width: 800px;
+    min-height: 200px;
+    margin: 30px;
+    padding: 15px;
+    background-color: white;
+    border: 7px solid #c7d8c6;
+    display: flex;
+    flex-direction: space-between;
+}
+
+.about-img {
+    max-width: 250px;
+    margin-left: 15px;
+}
+
+#form-box {
+    font-size: 1.5em;
+    max-width: 500px;
+    margin: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    background-color: #c7d8c6;
+    box-sizing: border-box;
+}
+
+#form div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.info {
+    width: 300px;
+    height: 25px;
+}
+
+#message {
+    width: 300px;
+    height: 100px;
+    vertical-align: top;
+}
+
+#submitbtn {
+    width: 170px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    background-color: #a9b7c0;
+    border: none;
+    box-shadow: 2px 2px 2px 0px;
+}
+
+#submitbtn:hover {
+    background-color: gray;
+}
+
+#success-message {
+    padding: 15px;
+    background-color: #c7d8c6;
+}
+
+#success-page {
+    background-color: #c7d8c6;
+}
